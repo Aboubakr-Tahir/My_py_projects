@@ -35,7 +35,7 @@ class Queens :
                    
             
                 self.board[row][col] = 0 
-           
+        return ''   
         
 chessboard = Queens(4) 
 print(chessboard.solve())         
