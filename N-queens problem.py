@@ -31,8 +31,8 @@ class Queens :
             if self.is_valid (row , col) :
                 self.board [row][col] = 1
                 
-                if self.solve(row+1) :
-                    return True
+                self.solve(row+1)
+                   
             
                 self.board[row][col] = 0 
            
