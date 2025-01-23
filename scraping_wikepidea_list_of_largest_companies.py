@@ -20,7 +20,7 @@ for row in row_tr :
   each_row_list = [element.text.strip() for element in row_td]
   
   if each_row_list :
-    lenght = len(df)
+    lenght = len(df) 
     df.loc[lenght] = each_row_list
 
 print(df)
